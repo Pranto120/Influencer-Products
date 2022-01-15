@@ -19,6 +19,21 @@ nav a {
 .top-header{
     font-size: 1.5em;
 }
+.top-header a:hover{
+    color: rgb(221, 60, 60);
+}
+a.home:hover{
+    color: rgb(221, 60, 60);
+}
+a.pro:hover{
+    color: rgb(221, 60, 60);
+}
+a.signup:hover{
+    color: rgb(221, 60, 60);
+}
+a.login:hover{
+    color: rgb(221, 60, 60);
+}
 
 nav {
     display: flex;
@@ -123,8 +138,8 @@ hr{
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
-    background: #FFFFFF;
-    box-shadow: 0px 10px 40px rgba(131, 5, 5, 0.445);
+    background: #708cd857;
+    box-shadow: 0px 10px 40px rgba(45, 218, 203, 0.568);
     border-radius: 10px;
 }
 /* Footer Section */
@@ -183,4 +198,20 @@ footer{
     display: grid;
     flex-direction: column;
 }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+    .banner-text{
+        margin: 25px;
+    }
+    .banner-title{
+        font-size: 1.4em;
+    }
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
