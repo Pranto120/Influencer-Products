@@ -1,0 +1,138 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+    
+}
+.all-padding{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+}
+/* Header part */
+
+/* nevigation start */
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    margin-right: 15px;
+}
+.top-header{
+    font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+/* nevigation end */
+/* header body start */
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.banner-text{
+    width: 45%;
+    text-align: justify;
+    padding-top: 8%;
+}
+.banner-title{
+   font-size: 2.5em;
+}
+.main-image{
+    width: 50%;
+    padding-top: 2%;
+    padding-left: 5%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font width: 700;
+    border-radius: 25px; 
+}
+/* header body end */
+.company-logo{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+/* collection part start */
+.section-title{
+    text-align: center;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    
+}
+.collection{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.collections .collection-banner img{
+    width: 300px;
+    height: 256px;
+    left: 210px;
+    top: 1052px;
+    border-radius: 5px;
+}
+.collection-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collection-banner{
+    width: 300px;
+    height: 256px;
+    left: 210px;
+    top: 2064px;
+   
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color:#AEAEAE;
+    ;
+}
+.send{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(131, 5, 5, 0.445);
+    border-radius: 10px;
+}
+/* Footer Section */
+footer{
+    background: #151B54;
+    color: white;
+    text-align: center;
+}
+.facebook{
+    color: white;
+}
+.instragrame{
+    color: rgb(206, 22, 22);
+}
+.whatsapp{
+    color: rgb(42, 236, 42);
+}
+.youtube{
+    color: red;
+}
