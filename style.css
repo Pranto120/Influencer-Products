@@ -110,6 +110,16 @@ hr{
     color:#AEAEAE;
     ;
 }
+.go-to a{
+    color: red;
+    text-decoration: none;
+}
+.go-to{
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
 .send{
     border-radius: 10px;
     padding: 10px;
